@@ -3,6 +3,8 @@ from src.calculator import Calculator
 
 class Test_Calculator:
 
+    # TODOS OS TESTES DEPENDEM DA MÉTRICA QUE VOCÊ UTILIZARÁ NO SEU PROJETO
+
     def test_add(self):
         result = Calculator.add(2, 3)
         assert result == 5
